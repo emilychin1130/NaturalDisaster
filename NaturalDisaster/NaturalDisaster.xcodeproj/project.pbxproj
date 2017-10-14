@@ -14,6 +14,7 @@
 		A14D86211F8FD67B003C2783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14D86201F8FD67B003C2783 /* Assets.xcassets */; };
 		A14D86241F8FD67B003C2783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D86221F8FD67B003C2783 /* LaunchScreen.storyboard */; };
 		A14D862D1F8FDA6B003C2783 /* EmergencyKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D862B1F8FDA6B003C2783 /* EmergencyKit.storyboard */; };
+		A14D862F1F91AF35003C2783 /* EmergencyKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D862E1F91AF35003C2783 /* EmergencyKitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A14D86231F8FD67B003C2783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A14D86251F8FD67B003C2783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14D862C1F8FDA6B003C2783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EmergencyKit.storyboard; sourceTree = "<group>"; };
+		A14D862E1F91AF35003C2783 /* EmergencyKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmergencyKitViewController.swift; path = ../../../../../Documents/EmergencyKitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				A14D86161F8FD67B003C2783 /* AppDelegate.swift */,
 				A14D86181F8FD67B003C2783 /* ViewController.swift */,
+				A14D862E1F91AF35003C2783 /* EmergencyKitViewController.swift */,
 				A14D861A1F8FD67B003C2783 /* Main.storyboard */,
 				A14D862B1F8FDA6B003C2783 /* EmergencyKit.storyboard */,
 				A14D86201F8FD67B003C2783 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				A14D86191F8FD67B003C2783 /* ViewController.swift in Sources */,
 				A14D861F1F8FD67B003C2783 /* NaturalDisaster.xcdatamodeld in Sources */,
+				A14D862F1F91AF35003C2783 /* EmergencyKitViewController.swift in Sources */,
 				A14D86171F8FD67B003C2783 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +319,7 @@
 				A14D862A1F8FD67B003C2783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
