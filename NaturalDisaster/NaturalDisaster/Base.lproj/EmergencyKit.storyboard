@@ -27,7 +27,6 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKc-jr-KEI">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="30"/>
-                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Food">
                                             <color key="titleColor" red="1" green="0.38823529410000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -37,7 +36,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jc-jn-gSJ">
                                         <rect key="frame" x="0.0" y="50" width="335" height="30"/>
-                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="First Aid">
                                             <color key="titleColor" red="1" green="0.38823529410000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -47,7 +45,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJC-ih-3e5">
                                         <rect key="frame" x="0.0" y="100" width="335" height="30"/>
-                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Papers">
                                             <color key="titleColor" red="1" green="0.38823529410000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -57,7 +54,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHQ-V3-fgA">
                                         <rect key="frame" x="0.0" y="150" width="335" height="30"/>
-                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Utilities">
                                             <color key="titleColor" red="1" green="0.38823529410000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -67,7 +63,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDR-Wb-HDq">
                                         <rect key="frame" x="0.0" y="200" width="335" height="30"/>
-                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Clothes">
                                             <color key="titleColor" red="1" green="0.38823529410000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -77,7 +72,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVW-hd-U8e">
                                         <rect key="frame" x="0.0" y="250" width="335" height="30"/>
-                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Others">
                                             <color key="titleColor" red="1" green="0.38823529410000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -102,7 +96,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843137254897" green="0.9137254901960784" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ffF-ma-6ho" firstAttribute="top" secondItem="meY-rk-Y4P" secondAttribute="bottom" constant="30" id="IUW-uJ-SS4"/>
                             <constraint firstItem="ffF-ma-6ho" firstAttribute="leading" secondItem="vcn-Qw-YH3" secondAttribute="leading" constant="20" id="geZ-iu-8Dq"/>
@@ -173,7 +167,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843140000001" green="0.91372549020000005" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="TaU-ru-YKe" firstAttribute="top" secondItem="mDx-pe-uip" secondAttribute="bottom" constant="30" id="LSq-d9-kDI"/>
                             <constraint firstAttribute="trailing" secondItem="TaU-ru-YKe" secondAttribute="trailing" id="pJ3-Mz-3Ge"/>
@@ -244,7 +238,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843140000001" green="0.91372549020000005" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="RnI-Yk-lkq" secondAttribute="trailing" id="8bo-Uh-Kn1"/>
                             <constraint firstItem="RnI-Yk-lkq" firstAttribute="top" secondItem="IQT-Il-uaU" secondAttribute="bottom" constant="46" id="Arb-k4-CNI"/>
@@ -324,7 +318,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843140000001" green="0.91372549020000005" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DRa-jC-n1r" firstAttribute="leading" secondItem="iCR-Fg-65u" secondAttribute="leading" constant="20" id="E81-3h-4Ef"/>
                             <constraint firstAttribute="trailing" secondItem="DRa-jC-n1r" secondAttribute="trailing" constant="20" id="YRn-Ak-ITc"/>
@@ -411,7 +405,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843140000001" green="0.91372549020000005" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="NUJ-E3-X1q" firstAttribute="top" secondItem="bwp-Vs-57U" secondAttribute="bottom" constant="20" id="NqX-ZX-UQm"/>
                             <constraint firstAttribute="trailing" secondItem="NUJ-E3-X1q" secondAttribute="trailing" id="f4d-sD-NFU"/>
@@ -486,9 +480,10 @@
                                     <segment title="Have"/>
                                     <segment title="Don't Have"/>
                                 </segments>
+                                <color key="tintColor" red="1" green="0.38823529410000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843140000001" green="0.91372549020000005" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="R9D-RI-uCl" firstAttribute="leading" secondItem="r70-u9-hlC" secondAttribute="leading" constant="20" id="56V-st-pOY"/>
                             <constraint firstItem="jmi-ks-Fn5" firstAttribute="leading" secondItem="r70-u9-hlC" secondAttribute="leading" constant="20" id="7xw-VM-Z78"/>
@@ -573,9 +568,10 @@
                                     <segment title="Have"/>
                                     <segment title="Don't Have"/>
                                 </segments>
+                                <color key="tintColor" red="1" green="0.38823529410000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843140000001" green="0.91372549020000005" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="kMf-3R-gGt" firstAttribute="top" secondItem="4mX-OQ-wS5" secondAttribute="bottom" constant="30" id="3oX-vx-25R"/>
                             <constraint firstItem="sVF-08-Af8" firstAttribute="top" secondItem="k4I-f8-WWR" secondAttribute="bottom" constant="20" id="B26-dt-PWI"/>
@@ -660,9 +656,10 @@
                                     <segment title="Have"/>
                                     <segment title="Don't Have"/>
                                 </segments>
+                                <color key="tintColor" red="1" green="0.38823529410000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843140000001" green="0.91372549020000005" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="JXG-NL-bUQ" secondAttribute="trailing" constant="20" id="OQl-aY-Re7"/>
                             <constraint firstItem="ez7-Cx-0j2" firstAttribute="top" secondItem="xII-73-doY" secondAttribute="bottom" constant="20" id="PWl-an-d7B"/>
@@ -760,7 +757,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843140000001" green="0.91372549020000005" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ABt-rV-0zy" firstAttribute="top" secondItem="hM1-Mz-0Cg" secondAttribute="bottom" constant="30" id="UgV-1a-B9P"/>
                             <constraint firstItem="ABt-rV-0zy" firstAttribute="leading" secondItem="baI-X9-ZCG" secondAttribute="leading" id="mJ1-SO-MMa"/>
@@ -835,9 +832,10 @@
                                     <segment title="Have"/>
                                     <segment title="Don't Have"/>
                                 </segments>
+                                <color key="tintColor" red="1" green="0.38823529410000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843140000001" green="0.91372549020000005" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="R1i-n3-1oS" secondAttribute="trailing" constant="20" id="I0w-am-4Q3"/>
                             <constraint firstItem="IvX-Kd-1KZ" firstAttribute="leading" secondItem="p6Y-MO-OKL" secondAttribute="leading" constant="20" id="LBn-e9-4fI"/>
@@ -935,7 +933,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843140000001" green="0.91372549020000005" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="qXg-ZF-qZe" firstAttribute="top" secondItem="pp4-CZ-vOg" secondAttribute="bottom" id="Qg1-q8-MeA"/>
                             <constraint firstItem="qXg-ZF-qZe" firstAttribute="leading" secondItem="M4K-ub-VAz" secondAttribute="leading" id="l78-wW-DYy"/>
@@ -1010,9 +1008,10 @@
                                     <segment title="Have"/>
                                     <segment title="Don't Have"/>
                                 </segments>
+                                <color key="tintColor" red="1" green="0.38823529410000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.79607843140000001" green="0.91372549020000005" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cEI-Rs-2IU" firstAttribute="leading" secondItem="UdV-pl-16Q" secondAttribute="leadingMargin" constant="20" id="241-55-ljU"/>
                             <constraint firstAttribute="trailing" secondItem="n4C-jb-jzP" secondAttribute="trailing" constant="20" id="Cyd-lH-rVA"/>

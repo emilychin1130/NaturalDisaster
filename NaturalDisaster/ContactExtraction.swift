@@ -8,6 +8,7 @@
 
 import UIKit
 import MessageUI
+import Contacts
 
 class ContactExtractionViewController: UIViewController, MFMessageComposeViewControllerDelegate {
     
@@ -37,4 +38,5 @@ class ContactExtractionViewController: UIViewController, MFMessageComposeViewCon
     }
 }
 
-            
+
+

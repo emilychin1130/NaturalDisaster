@@ -16,6 +16,7 @@
 		A14D862D1F8FDA6B003C2783 /* EmergencyKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D862B1F8FDA6B003C2783 /* EmergencyKit.storyboard */; };
 		A14D862F1F91AF35003C2783 /* EmergencyKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D862E1F91AF35003C2783 /* EmergencyKitViewController.swift */; };
 		A14D86321F91DD9B003C2783 /*  Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D86301F91DD9B003C2783 /*  Settings.storyboard */; };
+		A181884E1F92E03100E738E0 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A181884C1F92E03100E738E0 /* Contact.storyboard */; };
 		A1FAABE61F91F35F00118F78 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FAABE51F91F35F00118F78 /* CoreDataHelper.swift */; };
 		A1FAABE81F92047D00118F78 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FAABE71F92047D00118F78 /* FoodViewController.swift */; };
 		A1FAABEA1F9204D300118F78 /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FAABE91F9204D300118F78 /* AddFoodViewController.swift */; };
@@ -47,6 +48,7 @@
 		A14D862C1F8FDA6B003C2783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EmergencyKit.storyboard; sourceTree = "<group>"; };
 		A14D862E1F91AF35003C2783 /* EmergencyKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmergencyKitViewController.swift; path = ../../../../../Documents/EmergencyKitViewController.swift; sourceTree = "<group>"; };
 		A14D86311F91DD9B003C2783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/ Settings.storyboard"; sourceTree = "<group>"; };
+		A181884D1F92E03100E738E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contact.storyboard; sourceTree = "<group>"; };
 		A1FAABE51F91F35F00118F78 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		A1FAABE71F92047D00118F78 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		A1FAABE91F9204D300118F78 /* AddFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				A14D862E1F91AF35003C2783 /* EmergencyKitViewController.swift */,
 				A1FAABE51F91F35F00118F78 /* CoreDataHelper.swift */,
 				A14D861A1F8FD67B003C2783 /* Main.storyboard */,
+				A181884C1F92E03100E738E0 /* Contact.storyboard */,
 				A14D86301F91DD9B003C2783 /*  Settings.storyboard */,
 				A14D862B1F8FDA6B003C2783 /* EmergencyKit.storyboard */,
 				A1FAABFF1F92651A00118F78 /* UtilitesViewController.swift */,
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A14D86241F8FD67B003C2783 /* LaunchScreen.storyboard in Resources */,
+				A181884E1F92E03100E738E0 /* Contact.storyboard in Resources */,
 				A14D862D1F8FDA6B003C2783 /* EmergencyKit.storyboard in Resources */,
 				A14D86211F8FD67B003C2783 /* Assets.xcassets in Resources */,
 				A14D86321F91DD9B003C2783 /*  Settings.storyboard in Resources */,
@@ -258,6 +262,14 @@
 				A14D86311F91DD9B003C2783 /* Base */,
 			);
 			name = " Settings.storyboard";
+			sourceTree = "<group>";
+		};
+		A181884C1F92E03100E738E0 /* Contact.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A181884D1F92E03100E738E0 /* Base */,
+			);
+			name = Contact.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
