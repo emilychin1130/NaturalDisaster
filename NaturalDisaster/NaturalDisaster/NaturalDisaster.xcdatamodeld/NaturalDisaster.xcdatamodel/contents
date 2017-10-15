@@ -1,4 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Clothes" representedClassName="Clothes" syncable="YES" codeGenerationType="class">
+        <attribute name="expDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="have" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FirstAid" representedClassName="FirstAid" syncable="YES" codeGenerationType="class">
+        <attribute name="expDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="have" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Food" representedClassName="Food" syncable="YES" codeGenerationType="class">
+        <attribute name="expDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="have" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Others" representedClassName="Others" syncable="YES" codeGenerationType="class">
+        <attribute name="expDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="have" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Papers" representedClassName="Papers" syncable="YES" codeGenerationType="class">
+        <attribute name="expDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="have" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Utilities" representedClassName="Utilities" syncable="YES" codeGenerationType="class">
+        <attribute name="expDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="have" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Food" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="FirstAid" positionX="-54" positionY="18" width="128" height="90"/>
+        <element name="Papers" positionX="-36" positionY="27" width="128" height="90"/>
+        <element name="Utilities" positionX="-18" positionY="36" width="128" height="90"/>
+        <element name="Clothes" positionX="0" positionY="45" width="128" height="90"/>
+        <element name="Others" positionX="18" positionY="63" width="128" height="90"/>
+    </elements>
 </model>
