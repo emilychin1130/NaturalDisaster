@@ -32,7 +32,7 @@
         <scene sceneID="rnf-q8-PR8">
             <objects>
                 <viewControllerPlaceholder storyboardName="EmergencyKit" id="tWd-nc-dm1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="IK2-7J-BmT"/>
+                    <tabBarItem key="tabBarItem" title="Kit" id="IK2-7J-BmT"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a52-9Z-mJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,7 +42,7 @@
         <scene sceneID="LMO-9J-D6N">
             <objects>
                 <viewControllerPlaceholder storyboardName=" Settings" id="Hgh-Ka-MAe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="892-zB-QTx"/>
+                    <tabBarItem key="tabBarItem" title="Settings" id="892-zB-QTx"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hLu-0H-ThM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,7 +52,7 @@
         <scene sceneID="5pK-fx-8gX">
             <objects>
                 <viewControllerPlaceholder storyboardName="Contact" id="0Rc-Z9-5pc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ENo-kx-lrw"/>
+                    <tabBarItem key="tabBarItem" title="Contact" id="ENo-kx-lrw"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8eT-eu-o9G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

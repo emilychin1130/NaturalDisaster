@@ -886,17 +886,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qXg-ZF-qZe">
-                                <rect key="frame" x="0.0" y="64" width="375" height="600"/>
+                                <rect key="frame" x="0.0" y="114" width="375" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="600" id="EHH-QF-tYq"/>
                                 </constraints>
+                                <color key="sectionIndexBackgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoodCell" rowHeight="60" id="Z9u-tZ-lzd" customClass="FoodCell" customModule="NaturalDisaster" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Z9u-tZ-lzd" id="Mtd-44-lUm">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2D-eL-TVO">
@@ -932,11 +933,20 @@
                                     <outlet property="delegate" destination="429-pw-lmc" id="v6i-jW-eHR"/>
                                 </connections>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Non-perishable ; lasts 72 hours for each member of household" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vIT-Vc-yTz">
+                                <rect key="frame" x="20" y="79" width="335" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="qXg-ZF-qZe" firstAttribute="top" secondItem="pp4-CZ-vOg" secondAttribute="bottom" id="Qg1-q8-MeA"/>
+                            <constraint firstItem="vIT-Vc-yTz" firstAttribute="top" secondItem="pp4-CZ-vOg" secondAttribute="bottom" constant="15" id="Pgs-Vc-BM1"/>
+                            <constraint firstItem="qXg-ZF-qZe" firstAttribute="top" secondItem="pp4-CZ-vOg" secondAttribute="bottom" constant="50" id="Qg1-q8-MeA"/>
+                            <constraint firstAttribute="trailing" secondItem="vIT-Vc-yTz" secondAttribute="trailing" constant="20" id="ikj-gK-zNs"/>
                             <constraint firstItem="qXg-ZF-qZe" firstAttribute="leading" secondItem="M4K-ub-VAz" secondAttribute="leading" id="l78-wW-DYy"/>
+                            <constraint firstItem="vIT-Vc-yTz" firstAttribute="leading" secondItem="M4K-ub-VAz" secondAttribute="leading" constant="20" id="sq6-nD-sEt"/>
                             <constraint firstAttribute="trailing" secondItem="qXg-ZF-qZe" secondAttribute="trailing" id="xRX-8E-n5O"/>
                         </constraints>
                     </view>
@@ -946,7 +956,7 @@
                                 <segue destination="3um-it-lYI" kind="unwind" unwindAction="unwindToEmergencyKitViewController:" id="TyN-F1-QZh"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="+" id="ekH-0F-UJO">
+                        <barButtonItem key="rightBarButtonItem" title="+" width="3" id="ekH-0F-UJO">
                             <connections>
                                 <segue destination="ui6-Pl-JT2" kind="show" id="CDt-Jj-VpE"/>
                             </connections>

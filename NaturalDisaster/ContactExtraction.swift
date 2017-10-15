@@ -36,6 +36,8 @@ class ContactExtractionViewController: UIViewController, MFMessageComposeViewCon
     override func viewWillDisappear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = false
     }
+    
+    
 }
 
 
