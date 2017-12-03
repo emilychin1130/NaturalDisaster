@@ -14,7 +14,6 @@
 		A14D86211F8FD67B003C2783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14D86201F8FD67B003C2783 /* Assets.xcassets */; };
 		A14D86241F8FD67B003C2783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D86221F8FD67B003C2783 /* LaunchScreen.storyboard */; };
 		A14D862D1F8FDA6B003C2783 /* EmergencyKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D862B1F8FDA6B003C2783 /* EmergencyKit.storyboard */; };
-		A14D862F1F91AF35003C2783 /* EmergencyKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D862E1F91AF35003C2783 /* EmergencyKitViewController.swift */; };
 		A14D86321F91DD9B003C2783 /*  Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D86301F91DD9B003C2783 /*  Settings.storyboard */; };
 		A181884E1F92E03100E738E0 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A181884C1F92E03100E738E0 /* Contact.storyboard */; };
 		A1FAABE61F91F35F00118F78 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FAABE51F91F35F00118F78 /* CoreDataHelper.swift */; };
@@ -34,6 +33,7 @@
 		A1FAAC021F92655E00118F78 /* AddUtilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FAAC011F92655E00118F78 /* AddUtilitiesViewController.swift */; };
 		A1FAAC041F92663200118F78 /* UtilitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FAAC031F92663100118F78 /* UtilitiesCell.swift */; };
 		A1FAAC081F92B4C300118F78 /* ContactExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FAAC071F92B4C200118F78 /* ContactExtraction.swift */; };
+		A585D6731FD38541002DD3C8 /* EmergencyKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A585D6721FD38541002DD3C8 /* EmergencyKitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +46,6 @@
 		A14D86231F8FD67B003C2783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A14D86251F8FD67B003C2783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14D862C1F8FDA6B003C2783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EmergencyKit.storyboard; sourceTree = "<group>"; };
-		A14D862E1F91AF35003C2783 /* EmergencyKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmergencyKitViewController.swift; path = ../../../../../Documents/EmergencyKitViewController.swift; sourceTree = "<group>"; };
 		A14D86311F91DD9B003C2783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/ Settings.storyboard"; sourceTree = "<group>"; };
 		A181884D1F92E03100E738E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contact.storyboard; sourceTree = "<group>"; };
 		A1FAABE51F91F35F00118F78 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		A1FAAC011F92655E00118F78 /* AddUtilitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUtilitiesViewController.swift; sourceTree = "<group>"; };
 		A1FAAC031F92663100118F78 /* UtilitiesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilitiesCell.swift; sourceTree = "<group>"; };
 		A1FAAC071F92B4C200118F78 /* ContactExtraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactExtraction.swift; path = ../ContactExtraction.swift; sourceTree = "<group>"; };
+		A585D6721FD38541002DD3C8 /* EmergencyKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyKitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,6 @@
 			children = (
 				A14D86161F8FD67B003C2783 /* AppDelegate.swift */,
 				A14D86181F8FD67B003C2783 /* ViewController.swift */,
-				A14D862E1F91AF35003C2783 /* EmergencyKitViewController.swift */,
 				A1FAABE51F91F35F00118F78 /* CoreDataHelper.swift */,
 				A14D861A1F8FD67B003C2783 /* Main.storyboard */,
 				A181884C1F92E03100E738E0 /* Contact.storyboard */,
@@ -111,6 +110,7 @@
 				A1FAAC031F92663100118F78 /* UtilitiesCell.swift */,
 				A1FAABF91F92613300118F78 /* ClothesViewController.swift */,
 				A1FAABFB1F92617000118F78 /* AddClothesViewController.swift */,
+				A585D6721FD38541002DD3C8 /* EmergencyKitViewController.swift */,
 				A1FAABFD1F92621A00118F78 /* ClothesCell.swift */,
 				A1FAABF31F92506B00118F78 /* OtherViewController.swift */,
 				A1FAABF51F9250EA00118F78 /* AddOtherViewController.swift */,
@@ -207,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1FAABF01F92484A00118F78 /* AddFirstAidViewController.swift in Sources */,
+				A585D6731FD38541002DD3C8 /* EmergencyKitViewController.swift in Sources */,
 				A1FAABF41F92506B00118F78 /* OtherViewController.swift in Sources */,
 				A1FAABFE1F92621A00118F78 /* ClothesCell.swift in Sources */,
 				A1FAABF81F92515100118F78 /* OtherCell.swift in Sources */,
@@ -222,7 +223,6 @@
 				A14D86191F8FD67B003C2783 /* ViewController.swift in Sources */,
 				A14D861F1F8FD67B003C2783 /* NaturalDisaster.xcdatamodeld in Sources */,
 				A1FAAC081F92B4C300118F78 /* ContactExtraction.swift in Sources */,
-				A14D862F1F91AF35003C2783 /* EmergencyKitViewController.swift in Sources */,
 				A1FAABE81F92047D00118F78 /* FoodViewController.swift in Sources */,
 				A1FAABEE1F92482300118F78 /* FirstAidViewController.swift in Sources */,
 				A14D86171F8FD67B003C2783 /* AppDelegate.swift in Sources */,
